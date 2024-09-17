@@ -1,4 +1,78 @@
 .App {
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7b70df;
+  opacity: 0.9;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.mainHeading {
+  font-family: "sans-serif";
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.signInForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 300px;
+  width: 300px;
+  border-radius: 14px;
+  border-width: 2px solid black;
+  margin: 25px;
+  padding: 25px;
+}
+
+.habitName {
+  font-family: "sans-serif";
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 25px;
+}
+
+.frequency {
+  font-family: "sans-serif";
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 25px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+.userInput {
+  font-family: "sans-serif";
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  padding-left: 25px;
   text-align: center;
+  height: 30px;
+  width: 200px;
+}
+
+.addButton {
+  font-family: "sans-serif";
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  text-align: center;
+  height: 23px;
+  width: 75px;
 }
